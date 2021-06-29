@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "839312919042",
+    "firebase_url": "https://traffic-signs-eb683-default-rtdb.firebaseio.com",
+    "project_id": "traffic-signs-eb683",
+    "storage_bucket": "traffic-signs-eb683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839312919042:android:470cb2fe5a7379803df51b",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839312919042-t3tvh6q9apq9419jcmpot49jan6mi6ug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIPbtOF2VadhHcp_sKNTT1jEs9XaSyueM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839312919042-t3tvh6q9apq9419jcmpot49jan6mi6ug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

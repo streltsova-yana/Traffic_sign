@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/chooseAll"
+        android:title="Choose all"
+        app:showAsAction="never"
+        android:orderInCategory="0"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/limit20"
+        android:title="Speed limit (20km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="1"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/limit30"
+        android:title="Speed limit (30km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="2"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/limit50"
+        android:title="Speed limit (50km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="3"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/limit60"
+        android:title="Speed limit (60km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="4"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/limit70"
+        android:title="Speed limit (70km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="5"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/limit80"
+        android:title="Speed limit (80km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="6"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/restrEnds80"
+        android:title="End of speed limit (80km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="7"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/limit100"
+        android:title="Speed limit (100km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="8"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/limit120"
+        android:title="Speed limit (120km/h)"
+        app:showAsAction="never"
+        android:orderInCategory="9"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/noOvertaking"
+        android:title="No overtaking"
+        app:showAsAction="never"
+        android:orderInCategory="10"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/noOvertakingTrucks"
+        android:title="No overtaking trucks"
+        app:showAsAction="never"
+        android:orderInCategory="11"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/priorityNextIntersection"
+        android:title="Priority next intersection"
+        app:showAsAction="never"
+        android:orderInCategory="12"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/priorityRoad"
+        android:title="Priority road"
+        app:showAsAction="never"
+        android:orderInCategory="13"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/giveWay"
+        android:title="Give way"
+        app:showAsAction="never"
+        android:orderInCategory="14"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/stop"
+        android:title="Stop"
+        app:showAsAction="never"
+        android:orderInCategory="15"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/noTrafficBothWays"
+        android:title="No vehicles"
+        app:showAsAction="never"
+        android:orderInCategory="16"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/noTrucks"
+        android:title="Vehicles over 3.5 metric tons prohibited"
+        app:showAsAction="never"
+        android:orderInCategory="17"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/noEntry"
+        android:title="No entry"
+        app:showAsAction="never"
+        android:orderInCategory="18"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/danger"
+        android:title="General caution"
+        app:showAsAction="never"
+        android:orderInCategory="19"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/bendLeft"
+        android:title="Dangerous curve to the left"
+        app:showAsAction="never"
+        android:orderInCategory="20"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/bendRight"
+        android:title="Dangerous curve to the right"
+        app:showAsAction="never"
+        android:orderInCategory="21"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/bend"
+        android:title="Double curve"
+        app:showAsAction="never"
+        android:orderInCategory="22"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/unevenRoad"
+        android:title="Bumpy road"
+        app:showAsAction="never"
+        android:orderInCategory="23"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/slipperyRoad"
+        android:title="Slippery road"
+        app:showAsAction="never"
+        android:orderInCategory="24"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/roadNarrows"
+        android:title="Road narrows"
+        app:showAsAction="never"
+        android:orderInCategory="25"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/construction"
+        android:title="Road work"
+        app:showAsAction="never"
+        android:orderInCategory="26"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/trafficSignal"
+        android:title="Traffic signals"
+        app:showAsAction="never"
+        android:orderInCategory="27"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/pedestrianCrossing"
+        android:title="Pedestrians"
+        app:showAsAction="never"
+        android:orderInCategory="28"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/schoolCrossing"
+        android:title="Children crossing"
+        app:showAsAction="never"
+        android:orderInCategory="29"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/cyclesCrossing"
+        android:title="Bicycles crossing"
+        app:showAsAction="never"
+        android:orderInCategory="30"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/snow"
+        android:title="Beware of ice/snow"
+        app:showAsAction="never"
+        android:orderInCategory="31"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/animals"
+        android:title="Wild animals crossing"
+        app:showAsAction="never"
+        android:orderInCategory="32"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/restrictionEnds"
+        android:title="End of all speed and passing limits"
+        app:showAsAction="never"
+        android:orderInCategory="33"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/goRight"
+        android:title="Go right"
+        app:showAsAction="never"
+        android:orderInCategory="34"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/goLeft"
+        android:title="Go left"
+        app:showAsAction="never"
+        android:orderInCategory="35"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/goStraight"
+        android:title="Go straight"
+        app:showAsAction="never"
+        android:orderInCategory="36"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/goRightStraight"
+        android:title="Go right or straight"
+        app:showAsAction="never"
+        android:orderInCategory="37"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/goLeftStraight"
+        android:title="Go left or straight"
+        app:showAsAction="never"
+        android:orderInCategory="38"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/keepRight"
+        android:title="Keep right"
+        app:showAsAction="never"
+        android:orderInCategory="39"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/keepLeft"
+        android:title="Keep left"
+        app:showAsAction="never"
+        android:orderInCategory="40"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/roundabout"
+        android:title="Roundabout mandatory"
+        app:showAsAction="never"
+        android:orderInCategory="41"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/restrictionEndsOvertaking"
+        android:title="End of no passing"
+        app:showAsAction="never"
+        android:orderInCategory="42"
+        android:checkable="true"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/restrictionEndsOvertkTrucks"
+        android:title="End of no passing by vehicles over 3.5 metric tons"
+        app:showAsAction="never"
+        android:orderInCategory="43"
+        android:checkable="true"
+        android:checked="true"
+        />
+
+</menu>
